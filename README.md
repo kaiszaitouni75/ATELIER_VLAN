@@ -170,9 +170,19 @@ PC1 → PC3
 # ❓ Questions de réflexion
 
 1. Pourquoi PC1 ne voit-il pas PC3 sans routeur ? -> Répondez directement sur ce Readme.md 
+
+Parce qu'ils sont sur 2 VLAN différents donc pas dans le même réseau 
+
 2. Quel rôle joue le masque /24 ? -> Répondez directement sur ce Readme.md  
+
+il départage l'adresse réseau et celles des machines donc répartit le nombre d'hôte disponible sur le réseau
+
 3. Que se passe-t-il si VLAN 10 et VLAN 20 ont le même réseau IP ? -> Répondez directement sur ce Readme.md  
+Il y aura un conflit car les adresses seront les mêmes 
+
 4. Pourquoi un trunk est-il nécessaire ? -> Répondez directement sur ce Readme.md
+
+le trunk mode permet au routeur de re router les trames 
 
 ---
 
@@ -185,9 +195,17 @@ Changer VLAN 10 en :
 ```
 
 Questions :
-- Combien d’hôtes max ?  
-- Quelle plage IP valide ?  
+- Combien d’hôtes max ?
+  
+  126 hôtes maximum
+  
+- Quelle plage IP valide ?
+
+192.168.10.1 - 192.168.10.126 car 192.168.10.127 est l'adresse de diffusion
+  
 - Peut-on encore communiquer avec VLAN 20 ?
+
+  Oui nous pouvons encore communiquer avec le VLAN 20
 
 ---
 
@@ -195,7 +213,8 @@ Questions :
 
 - Ajouter VLAN 30  
 - Mettre un DHCP par VLAN  
-  
+  <img width="394" height="539" alt="image" src="https://github.com/user-attachments/assets/ce780800-4a3b-4978-8af3-55b81ba79edd" />
+
 ---
 
 # 📝 Évaluation (/20)
