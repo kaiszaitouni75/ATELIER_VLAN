@@ -154,8 +154,8 @@ Configurer IP + passerelle selon le plan d’adressage.
 ## Test 1 — Intra-VLAN
 PC1 → PC2  
 👉 Doit fonctionner
-
-* * Copie d'écran ici * *  
+ 
+<img width="1920" height="1040" alt="screenshot_162" src="https://github.com/user-attachments/assets/e4ffc1dd-dc56-4760-8d80-0620f847e028" />
 
 ---
 
@@ -163,8 +163,8 @@ PC1 → PC2
 PC1 → PC3  
 👉 Fonctionne uniquement grâce au routeur
 
-* * Copie d'écran ici * *  
-  
+  <img width="1920" height="1040" alt="screenshot_163" src="https://github.com/user-attachments/assets/b0856167-a77f-48cc-81a3-307b1051a154" />
+
 ---
 
 # ❓ Questions de réflexion
